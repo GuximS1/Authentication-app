@@ -74,7 +74,7 @@ function Complete({}: Props) {
           refetchQueries: [{ query: ME }],
         });
         console.log(response);
-        router.push("./Profile");
+        router.push("/components/Profile");
       }
       console.log(data1);
       console.log(files);
